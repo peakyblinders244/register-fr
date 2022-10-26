@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/deploy-github/static/css/main.073c9b0a.css",
-    "main.js": "/deploy-github/static/js/main.1627dc50.js",
-    "static/js/787.7a7d7778.chunk.js": "/deploy-github/static/js/787.7a7d7778.chunk.js",
-    "static/media/logo.svg": "/deploy-github/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/deploy-github/index.html",
-    "main.073c9b0a.css.map": "/deploy-github/static/css/main.073c9b0a.css.map",
-    "main.1627dc50.js.map": "/deploy-github/static/js/main.1627dc50.js.map",
-    "787.7a7d7778.chunk.js.map": "/deploy-github/static/js/787.7a7d7778.chunk.js.map"
+    "main.css": "/register-fr/static/css/main.073c9b0a.css",
+    "main.js": "/register-fr/static/js/main.99731361.js",
+    "static/js/787.7a7d7778.chunk.js": "/register-fr/static/js/787.7a7d7778.chunk.js",
+    "static/media/logo.svg": "/register-fr/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/register-fr/index.html",
+    "main.073c9b0a.css.map": "/register-fr/static/css/main.073c9b0a.css.map",
+    "main.99731361.js.map": "/register-fr/static/js/main.99731361.js.map",
+    "787.7a7d7778.chunk.js.map": "/register-fr/static/js/787.7a7d7778.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.1627dc50.js"
+    "static/js/main.99731361.js"
   ]
 }
