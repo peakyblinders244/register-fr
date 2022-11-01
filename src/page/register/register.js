@@ -21,6 +21,7 @@ export const Register= () => {
       };
 
     return (
+      <div className='Modal'>
         <Form
           name="basic"
           labelCol={{ span: 8 }}
@@ -35,7 +36,7 @@ export const Register= () => {
             name="username"
             rules={[{ required: true, message: 'Please input your username!' }]}
           >
-            <Input />
+            <Input className='Input'/>
           </Form.Item>
     
           <Form.Item
@@ -43,7 +44,7 @@ export const Register= () => {
             name="password"
             rules={[{ required: true, message: 'Please input your password!' }]}
           >
-            <Input.Password />
+            <Input.Password className='Input'/>
           </Form.Item>
           
           <Form.Item
@@ -51,21 +52,21 @@ export const Register= () => {
             name="fullName"
             rules={[{ required: false, message: 'Please input full name!' }]}
           >
-            <Input />
+            <Input className='Input'/>
           </Form.Item>
           <Form.Item
             label="Phone"
             name="phone"
             rules={[{ required: false, message: 'Please input phone!' }]}
           >
-            <Input />
+            <Input className='Input'/>
           </Form.Item>
           <Form.Item
             label="Address"
             name="address"
             rules={[{ required: false, message: 'Please input address!' }]}
           >
-            <Input />
+            <Input className='Input'/>
           </Form.Item>
           {/* <Form.Item name="remember" valuePropName="checked" wrapperCol={{ offset: 8, span: 16 }}>
             <Checkbox>Remember me</Checkbox>
@@ -78,6 +79,6 @@ export const Register= () => {
           </Form.Item>
           
         </Form>
-      
+        </div>
         );
 }
